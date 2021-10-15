@@ -38,4 +38,4 @@ spec:
         - destination:
             host: caller-service
             subset: v1
-#      timeout: 0.5s # - to enable if using Istio fault on callme-service route
+      # timeout: 0.5s # - to enable if using Istio fault on callme-service route

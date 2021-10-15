@@ -2,7 +2,9 @@ apiVersion: skaffold/v2alpha1
 kind: Config
 build:
   artifacts:
-    - image: piomin/caller-service
+    - image: yeongbeen93/caller-service
       jib: {}
   tagPolicy:
-    gitCommit: {}
+    dateTime:
+      format: 2006-01-02_15-04-05.999_MST
+      timezone: "Local"

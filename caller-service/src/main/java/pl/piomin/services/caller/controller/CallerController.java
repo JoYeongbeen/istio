@@ -17,7 +17,7 @@ public class CallerController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CallerController.class);
 
-//    @Autowired
+    @Autowired
     BuildProperties buildProperties;
     @Autowired
     RestTemplate restTemplate;
